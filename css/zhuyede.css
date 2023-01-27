@@ -1,0 +1,74 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+
+}
+
+   body {
+	  background-color: rgb(23, 24, 26);
+      width: 1790px;
+      height: 1980px;
+   }
+   div{
+    width: 100%;
+    height: 100%;
+   }
+   div ul li {
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    display: block;
+
+   }
+   div ul li:hover {
+    content: "4399";
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    
+ 
+   }
+   div ul li span{
+    width: 250px;
+    height: 200px;
+   }
+   div ul li span img {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(2px); /* Chrome, Opera */
+    -moz-filter: blur(2px);
+     -ms-filter: blur(2px);    
+         filter: blur(2px);
+  }
+  div ul li::before{
+    content: "新年快乐";
+    color: rgb(255, 159, 33);
+    position: relative;
+    top: 30px;
+    z-index: 10;
+  }
+  div ul li span img:hover{
+    -webkit-filter: blur(p0x); /* Chrome, Opera */
+    -moz-filter: blur(0px);
+     -ms-filter: blur(0px);    
+         filter: blur(0px);
+         z-index: 99;
+  }
+  div ul li span img::after{
+    content: "ddd";
+    width: 200px;
+    display: block;
+  }
