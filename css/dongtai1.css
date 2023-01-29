@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 1790px;
+      height: 1980px;
+}
+.cebian{
+    width: 250px;
+    height: 100%;
+    margin-right: 70px;
+    border-right: solid 1px #88898b;
+}
+.cebian ul>li>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.cebian ul>li{
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.cebian ul>li:hover{
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: block;
+    background-color:#232527;
+   transition: 1s linear 0s;
+    
+}
+.cebian ul>li span{
+    line-height: 50px;
+    position: absolute;
+    color: rgb(110, 110, 110);
+    padding-left: 20px;
+}
+.znm{
+    width: 800px;
+    height: 1900;
+    font-size: 100px;
+    color: crimson;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+}
+.znm ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.znm ul li{ 
+    flex: 1;
+    border: 1px solid red;
+    width: 100px;
+}

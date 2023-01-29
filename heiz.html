@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+</head>
+<style type="text/css">
+  .shijie{
+    width: 100px;
+    height: 50px;
+    position: relative;
+  }
+</style>
+<body>
+<input type="button" onclick="fun1(this);" value="1"/>
+<div   id="shjie" class="shijie">4399</div>
+<input type="button" id="a1" onclick="agi" value="4399"/>
+<script>
+	   var agi = document.getElementById('a1');
+	    agi.onclick=function(){
+		alert("4399");
+	  };
+    var num = document.getElementById('shjie');
+      num.width="200px";
+      num.height="100px";
+    num.onclick=function(){
+      num.width="200px";
+      num.height="100px";
+      num.color="#3300011";
+      alert("9877");
+    };
+</script>
+</body><script type="text/javascript">
+  function fun1(curObj) { 
+      curObj.value="1";
+      curObj.width="50px";
+    curObj.height="50px";
+    curObj.onclick= function(){fun2(curObj);};    
+    console.log("fun1  occurred!");    
+  
+    }    
+   function fun2(curObj) {    
+    curObj.onclick=function(){fun1(curObj);};   
+    curObj.value="2"; 
+    curObj.width="180";
+    curObj.height="190px";
+    console.log("fun2  occurred!");    
+   } 
+</script>
+
+</html>
