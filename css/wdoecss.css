@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style:  none;
+    text-decoration: none;
+}
+body {
+    background-color: #17181a;
+}
+.head-1 {
+   width: 70vw;
+   height: 150px;
+   position: relative;
+   left: 5vw;
+   margin-top: 50px;
+   background-color: #1e2022;
+   border-radius: 10px;
+}
+.head-1 ul .a2 {
+    width: 35vw;
+    height: 70%;
+    margin-top: 2%;
+    margin-left: 3%;
+    
+    position: absolute;
+}
+.head-1 ul .a2 img {
+    width: 4vw;
+    height: 4vw;
+    margin-top: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.head-1 ul .a2 .sp1 {
+     left: 90px;
+     height: 30px;
+     font-size: 1.5vw;
+     width:10vw;
+     color: aliceblue;
+     top: 15%; 
+     position: absolute;
+     vertical-align: text-top;
+}
+.sp1 span {
+    font-size: 0.5vw;
+    background-color: orange;
+    margin-left: 5px;
+}
+.head-1 ul .a2 .sp2 {
+    left: 90px;
+    height: 20px;
+    width: 7vw;
+    color: #575d6f;
+    font-size: 0.5vw;
+    top: 50%;    
+    position: absolute;
+}
+.head-1 ul .a3 {
+    width: 20vw;
+    position: absolute;
+    right: 20px;
+    height: 70%;
+    margin-top: 2%;
+    
+}
+.head-1 ul .a3 .a4 ul li a {
+    color: white;
+    font-size: 1vw;
+    width: 3vw;
+    white-space: wrap;
+}
+.head-1 ul .a3 .a4 ul li a:hover {
+    color: rgb(247, 136, 136);
+}
+#a1::after {
+    content: "动态";
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin-top:0.5vw;
+    width: 3vw;
+    color: rgb(145, 145, 145);
+}
+.head-1 ul .a3 .a4 ul li{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 50px;
+    top: 20px;
+}
+.head-1 ul .a3 .a4 ul .a5 {
+    left: 2.8vw;
+    top:35px;
+    color: #575d6f;
+}
+#a2 {
+    position: absolute;
+    left: 4vw;
+}
+#a2::after {
+    content: "关注";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    margin-top:0.5vw;
+    width: 5vw;
+    color: rgb(145, 145, 145);
+}
+.head-1 ul .a3 .a4 ul .a6 {
+    left: 6.5vw;
+    top:35px;
+    color: #575d6f;
+}
+#a3 {
+    position: absolute;
+    left: 7vw;
+    text-align: center;
+}
+#a3::after {
+    content: "关注";
+    position: absolute;
+    top: 20px;
+    left: -0.8vw;
+    margin-top:0.3vw;
+    width: 5vw;
+    color: rgb(145, 145, 145);
+}
+#a4 {
+    position: relative;
+    right: -14vw;
+    top: 1vw;
+    text-align: center;
+}
+#a4::after {
+    content: " > ";
+    position: absolute;
+    left: 0.1vw;
+    width: 5vw;
+    color: rgb(145, 145, 145);
+}
+.head-2 {
+    width: 15vw;
+    height: 150px;
+    position: absolute;
+    right: 3vw;
+    top: 2vw;
+    margin-top: 15px;
+    align-content: center;
+    vertical-align: bottom;
+    background-color: #1e2022;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(247, 136, 136, 0.24);
+}
+.head-2::after {
+    content: "成为大会员";
+    position: absolute;
+    top: 2.5vw;
+    font-size: 20px;
+    left: 5vw;
+    color: rgb(241, 161, 161);
+}.head-2::before {
+    content: "了解更多权益 >";
+    position: absolute;
+    top: 4vw;
+    font-size: 15px;
+    left: 5vw;
+    color: rgb(241, 161, 161);
+}
